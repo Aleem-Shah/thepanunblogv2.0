@@ -1,0 +1,39 @@
+.main__container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 30px;
+
+    justify-content: center;
+    .img__container{
+        width: 250px;
+        height: 250px;
+        img{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+            border-radius: 15px;
+        }
+        
+    }
+    .text__container{
+        width: 500px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        background:#ccc;
+        display: grid;
+        text-align: center;
+        place-content: center;
+        h1{
+            display: flex;
+            flex-direction: column;
+            font-size: 30px;
+            font-weight: 900;
+        }
+        span{
+            font-size: 15px;
+
+        }
+     
+    }
+}

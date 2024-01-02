@@ -1,0 +1,103 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    p{
+        
+        margin-left: 10px;
+        color: #3723a4;
+        font-size:18px;
+        font-weight: 600;
+    }
+    h1{
+        font-size: 75px;
+        font-weight: 600;
+        width: 95%;
+        color:#122648
+    }
+}
+
+ 
+@media (max-width:325px) {
+    .hero{
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+         p{
+             margin-top: 10%;
+             margin-left: 5px;
+             color: #3723a4;
+             font-size:10px;
+             font-weight: 700;
+         }
+         h1{
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             font-size: 25px;
+             overflow-wrap: break-word;
+             font-weight: 600;
+             width: 100%;
+             color:#122648
+         }
+     
+ }
+
+}
+@media (max-width:600px) and (min-width:325px){
+    .hero{
+       margin-left: 30px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       
+        p{
+            margin-top: 10%;
+            margin-left: 5px;
+            color: #3723a4;
+            font-size:14px;
+            font-weight: 600;
+        }
+        h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            overflow-wrap: break-word;
+            font-weight: 600;
+            width: 100%;
+            color:#122648
+        }
+    
+}
+}
+
+@media (max-width:864px) and (min-width:600px) {
+    .hero{
+        margin-left: 50px;
+ 
+        
+         p{
+             margin-top: 10%;
+             margin-left: 10px;
+             color: #3723a4;
+             font-size:14px;
+             font-weight: 600;
+         }
+         h1{
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             font-size: 65px;
+             overflow-wrap: break-word;
+             font-weight: 600;
+             
+             color:#122648
+         }
+     
+ }
+
+}

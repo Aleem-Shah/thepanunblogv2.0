@@ -1,0 +1,21 @@
+.main{
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+
+  height: 100vh; 
+  background-color: #f6f6ea;
+  height: 100vh;
+    
+}
+@media (max-width:600px){
+  .main{
+    height: 55vh;
+
+  }
+
+}
+@media (max-width :864px) and (min-width:600px)  {
+  .main{
+    height: 80vh;
+  }
+}
